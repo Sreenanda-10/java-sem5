@@ -1,0 +1,40 @@
+class Rectangle {
+    int length, breadth;
+
+    
+    Rectangle() {
+        length = 1;
+        breadth = 1;
+    }
+
+    
+    Rectangle(int l, int b) {
+        length = l;
+        breadth = b;
+    }
+
+    Rectangle(int side) {
+        length = side;
+        breadth = side;
+    }
+
+    
+    void displayArea() {
+        System.out.println("Area = " + (length * breadth));
+    }
+
+    public static void main(String[] args) {
+        Rectangle r1 = new Rectangle();
+        Rectangle r2 = new Rectangle(10, 5);
+        Rectangle r3 = new Rectangle(6);
+
+        System.out.println("Default Rectangle:");
+        r1.displayArea();
+
+        System.out.println("Rectangle:");
+        r2.displayArea();
+
+        System.out.println("Square:");
+        r3.displayArea();
+    }
+}
