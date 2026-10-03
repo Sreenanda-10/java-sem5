@@ -1,0 +1,2 @@
+Welcome to Java I/O Streams.
+This is a FileInputStream example.

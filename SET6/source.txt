@@ -1,0 +1,2 @@
+This is the source file.
+This content will be copied to another file.
